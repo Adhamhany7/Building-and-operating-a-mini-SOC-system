@@ -1,7 +1,7 @@
 # Mini SOC Home Lab - Wazuh vs ELK Detection Comparison
 
 ## Overview
-This project demonstrates building a home-based Security Operations Center (SOC) lab using both Wazuh and the Elastic Stack (ELK). The main goal is to compare how each platform handles log collection, detection rules, and alert generation.
+This project demonstrates how to build a home-based Security Operations Center (SOC) lab using both Wazuh and the Elastic Stack (ELK). The main goal is to compare how each platform handles log collection, detection rules, and alert generation.
 
 The lab focuses specifically on the difference in detection logic:
 - Wazuh uses built-in rules and decoders
@@ -30,7 +30,7 @@ The lab focuses specifically on the difference in detection logic:
 ---
 
 ## Architecture
-![Lab Architecture](images/architecture.png)
+![Lab Architecture](https://github.com/Adhamhany7/Building-and-operating-a-mini-SOC-system/blob/a1e12c3a3e916a7e73b9bc593fcbd554bf405972/Soc%20Lab%20Architecture.png)
 
 ---
 
@@ -85,13 +85,14 @@ This highlights a critical SOC concept:
 ## Screenshots
 
 ### Wazuh Alerts
-![Wazuh Alerts](images/wazuh-alerts.png)
+![Wazuh Alerts](https://github.com/Adhamhany7/Building-and-operating-a-mini-SOC-system/blob/a1e12c3a3e916a7e73b9bc593fcbd554bf405972/Alert%20Detection.png)
 
 ### ELK Detection Rule
-![ELK Rule](images/elk-rule.png)
+![ELK Custom Rule](https://github.com/Adhamhany7/Building-and-operating-a-mini-SOC-system/blob/a1e12c3a3e916a7e73b9bc593fcbd554bf405972/Custom%20Rules.png)
+![ELK Update Rule](https://github.com/Adhamhany7/Building-and-operating-a-mini-SOC-system/blob/a1e12c3a3e916a7e73b9bc593fcbd554bf405972/Update%20Rules.png)
 
-### ELK Alerts
-![ELK Alerts](images/elk-alerts.png)
+### ELK logs
+![ELK Logs](https://github.com/Adhamhany7/Building-and-operating-a-mini-SOC-system/blob/a1e12c3a3e916a7e73b9bc593fcbd554bf405972/ElK%20Logs.png)
 
 ---
 
